@@ -1,0 +1,15 @@
+#sideBar {
+    width: 20vw;
+    height: 100vh;
+    float: left;
+    display: none;
+}
+
+#searchBtn{
+    border-radius: 20px;
+}
+
+#sideBarMenu{
+    width: 100%;
+}
+
