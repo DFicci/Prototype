@@ -7,11 +7,11 @@
 
 .list-group-item{
     background: darkgray;
-    border: none;
     border-radius: 0px;
 }
 .card{
     border: none;
+
 }
 #searchBtn{
     border-radius: 20px;
