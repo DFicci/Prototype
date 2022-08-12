@@ -1,35 +1,42 @@
-#sideBar {
-    width: 20vw;
-    height: 100vh;
+.sideBar {
     float: left;
     animation: moveInLeft 1s ease-out;
     display: none;
+    padding: 0px;
+    background: darkgray;
+    height: 100vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.list-group-item{
+.list-group-item {
     background: darkgray;
     border-radius: 0px;
 }
-.card{
-    border: none;
 
+.nav-link {
+    padding-left: 1rem;
 }
-#searchBtn{
+
+.navBarBtns {
+    padding-right: 1rem;
+}
+
+#searchBtn {
     border-radius: 20px;
 }
 
-#sideBarMenu{
-    width: 100%;
-  border: none;
-}
 
 @keyframes moveInLeft {
     0% {
-        opacity: 0;
-        transform: translateX(-10rem); }
+        transform: translateX(-10rem);
+    }
     80% {
-        transform: translateX(1rem); }
+        transform: translateX(0rem);
+    }
     100% {
         opacity: 1;
-        transform: translate(0); }
+        transform: translate(0);
+    }
 }
+
+

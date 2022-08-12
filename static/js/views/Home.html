@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../../css/Home.css">
 
     <title>Title</title>
@@ -16,35 +16,61 @@
 <!--Navbar-->
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <a class="navbar-brand nav-link" href="#">Navbar</a>
 
-    <div class="ml-auto">
+    <div class=" navBarBtns ms-auto">
         <button class="btn btn-outline-dark" type="button" data-toggle="collapse">Account</button>
-        <button class="btn btn-outline-dark" type="button" id="menuPopOut" value="NO" >Menu</button>
+        <button class="btn btn-outline-dark" type="button" id="menuPopOut" value="NO">Menu</button>
     </div>
 </nav>
 
 
 <!--SideBar container-->
 <!--needs to be adjusted, different font and size, as well as giving a cleaner look-->
-<div class="sideBar container" id="sideBar">
-    <div class="row d-flex justify-content-center align-items-center">
-        <div class="card" id="sideBarMenu">
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item" id="createAccount"><a href="">Create an account</a></li>
-                <li class="list-group-item">Find a clinic</li>
-                <li class="list-group-item">Information</li>
-            </ul>
-        </div>
+<div class="sideBar rounded-0 w-25" id="sideBar">
+
+    <div class=" row w-100 p-0 m-0 d-flex justify-content-center align-items-center">
+        <ul class="list-group p-0">
+            <li class="list-group-item rounded-0 "><a href="">Create an account</a></li>
+            <li class="list-group-item rounded-0">Find a clinic</li>
+            <li class="list-group-item rounded-0">Information</li>
+        </ul>
     </div>
 </div>
 
 <!--Webpage-->
-
+<div class="container mt-5">
+    <div class="row d-flex d-grid gap-2 justify-content-center">
+        <div class="card col-6" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+        <div class="card col-6" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+        <div class="card col-6" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+        <div class="card col-6" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -53,8 +79,8 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
 <script src="../home.js"></script>
 </body>
