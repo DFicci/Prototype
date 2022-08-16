@@ -3,13 +3,10 @@
     animation: moveInLeft 1s ease-out;
     display: none;
     padding: 0px;
-    background: darkgray;
     height: 100vh;
-    border-right: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .list-group-item {
-    background: darkgray;
     border-radius: 0px;
 }
 

@@ -15,62 +15,76 @@
 <body>
 <!--Navbar-->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand nav-link" href="#">Navbar</a>
 
     <div class=" navBarBtns ms-auto">
-        <button class="btn btn-outline-dark" type="button" data-toggle="collapse">Account</button>
-        <button class="btn btn-outline-dark" type="button" id="menuPopOut" value="NO">Menu</button>
+        <button class="btn btn-outline-light" type="button" data-toggle="collapse">Account</button>
+        <button class="btn btn-outline-light" type="button" id="menuPopOut" value="NO">Menu</button>
     </div>
 </nav>
-
-
 <!--SideBar container-->
 <!--needs to be adjusted, different font and size, as well as giving a cleaner look-->
-<div class="sideBar rounded-0 w-25" id="sideBar">
-
+<div class="sideBar rounded-0 w-25 border-right bg-dark" id="sideBar">
     <div class=" row w-100 p-0 m-0 d-flex justify-content-center align-items-center">
         <ul class="list-group p-0">
-            <li class="list-group-item rounded-0 "><a href="">Create an account</a></li>
-            <li class="list-group-item rounded-0">Find a clinic</li>
-            <li class="list-group-item rounded-0">Information</li>
+            <li class="list-group-item rounded-0 bg-dark text-white"><a href="">Create an account</a></li>
+            <li class="list-group-item rounded-0 bg-dark text-white">Find a clinic</li>
+            <li class="list-group-item rounded-0 bg-dark text-white">Information</li>
         </ul>
     </div>
 </div>
-
-<!--Webpage-->
-<div class="container mt-5">
-    <div class="row d-flex d-grid gap-2 justify-content-center">
-        <div class="card col-6" style="width: 12rem; height: 12rem">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-            </div>
-        </div>
-        <div class="card col-6" style="width: 12rem; height: 12rem">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-            </div>
-        </div>
-        <div class="card col-6" style="width: 12rem; height: 12rem">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-            </div>
-        </div>
-        <div class="card col-6" style="width: 12rem; height: 12rem">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text"> Click here to go to your profile settings</p>
+<!--header-->
+<header class="bg-dark py-5">
+    <div class="container px-5">
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-6">
+                <div class="text-center my-5">
+                    <!--name will be changed, placeholder for now-->
+                    <h1 class="display-5 fw-bolder text-white mb-2">Welcome to Pet Management</h1>
+                    <p class="lead text-white-50 mb-40">Here you will be able to easily manage all of your pet
+                        documents, making your documents readily available to give to your veterinarian or pet
+                        daycare.</p>
+                    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                        <a class="btn btn-primary btn-lg px-4 me-sm-3">Get Started</a>
+                        <a class="btn btn-outline-light btn-lg px-4">Learn More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
+</header>
+<!--Webpage-->
+<section class="py-5 border-bottom">
+    <div class="container px-5 my-5">
+        <div class="row gx-5">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="bg-primary bg-gradient text-white rounded-3 mb-3">
+                    <!--icon goes here-->
+                </div>
+                <h2 class="h4 fw-bolder">Find a clinic near you</h2>
+                <p>Here you will be able to search for a clinic near you.</p>
+                <button class="btn btn-primary">Search</button>
+            </div>
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="bg-primary bg-gradient text-white rounded-3 mb-3">
+                    <!--icon goes here-->
+                </div>
+                <h2 class="h4 fw-bolder">Find a clinic near you</h2>
+                <p>Here you will be able to search for a clinic near you.</p>
+                <button class="btn btn-primary">Search</button>
+            </div>
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="bg-primary bg-gradient text-white rounded-3 mb-3">
+                    <!--icon goes here-->
+                </div>
+                <h2 class="h4 fw-bolder">Find a clinic near you</h2>
+                <p>Here you will be able to search for a clinic near you.</p>
+                <button class="btn btn-primary">Search</button>
+            </div>
+        </div>
+    </div>
+</section>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
